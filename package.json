@@ -1,0 +1,19 @@
+{
+  "name": "elliptic-testing",
+  "version": "0.0.1",
+  "description": "Testing elliptic.js type definitions",
+  "scripts": {
+    "postinstall": "cpx \"node_modules/elliptic-tsd/elliptic.d.ts\" node_modules/@types -v",
+    "tsc": "tsc --noImplicitAny --module commonjs --outDir dist eddsa-test.ts"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "typescript": "2.1.4"
+  },
+  "dependencies": {
+    "cpx": "1.5.0", 
+    "@types/node": "7.0.0",
+    "elliptic": "6.3.2",  
+    "elliptic-tsd": "git+https://git@github.com/synereo/elliptic-tsd.git"
+  }  
+}

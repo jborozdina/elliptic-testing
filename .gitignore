@@ -1,0 +1,7 @@
+*.iml
+*.log
+*.js
+.idea
+.vscode
+node_modules
+dist

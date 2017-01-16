@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "es6", 
+        "outDir": "dist/",
+        "sourceMap": true,
+        "inlineSources": true,
+        "baseUrl": "../"
+    }    
+}

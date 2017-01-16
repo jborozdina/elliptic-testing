@@ -1,1 +1,1 @@
-# elliptic-testing
+Testing elliptic.js type definitions usage.
