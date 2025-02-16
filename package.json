@@ -13,7 +13,7 @@
   "dependencies": {
     "cpx": "1.5.0", 
     "@types/node": "7.0.0",
-    "elliptic": "6.3.2",  
+    "elliptic": ">=6.6.1",  
     "elliptic-tsd": "git+https://git@github.com/synereo/elliptic-tsd.git"
   }  
 }
